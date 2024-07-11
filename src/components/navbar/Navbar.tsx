@@ -6,6 +6,7 @@ function Navbar() {
   return (
     <header className="header">
       <h1>Farmácia</h1>
+      
       <nav>
         <ul>
           <li><Link to='/' className='hover:underline'>Home</Link></li>
