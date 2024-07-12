@@ -1,0 +1,29 @@
+/* Navbar styles */
+.header {
+    background-color: #008080;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .header nav ul {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .header nav a:hover {
+    text-decoration: underline;
+  }
+  

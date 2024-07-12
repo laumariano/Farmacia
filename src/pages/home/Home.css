@@ -1,0 +1,99 @@
+/* Estilos específicos para Home */
+.home {
+    /* Estilos gerais para o componente Home */
+  }
+  
+  .intro {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .intro .principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #008080;
+  }
+  
+  .intro img {
+    width: 150px; /* Ajuste o tamanho conforme necessário */
+    margin-right: 20px;
+  }
+  
+  .intro h2 {
+    color: #080000;
+  }
+  
+  .product-showcase {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .product-showcase h2 {
+    margin-bottom: 20px;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .product-card img {
+    width: 100%;
+    max-width: 150px; /* Ajuste o tamanho conforme necessário */
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .product-card h3 {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .product-card p {
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .cart-button,
+  .wish-button {
+    background-color: #008080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cart-button:hover,
+  .wish-button:hover {
+    background-color: #006666;
+  }
+  
+  .cart-button svg,
+  .wish-button svg {
+    margin-right: 5px;
+  }
+  
